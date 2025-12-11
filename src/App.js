@@ -13,20 +13,20 @@ function App() {
      
       
       <header className="App-header">
-        <Routes>
-          <Route path='/*' element={(
-        <>
         <Navbar/>
         <Routes>
+          
+        
+       
             <Route path='/' element={<Home/>}/>
             <Route path='/coins' element={<Coins/>}/>
             <Route path='/exchange' element={<Exchange/>}/>
             <Route path='/about' element={<About/>}/>
             <Route path='/coins/:id' element={<Coindetails/>}/>
             <Route path='/nfts' element={<NFTs/>}/>
-        </Routes>
-        </>
-  )}/>
+       
+    
+
    
         </Routes>
       </header>
